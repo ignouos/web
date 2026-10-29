@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a problem with the website.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve the site. Please avoid posting personal information or secrets.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the issue and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that lead to the issue.
+      placeholder: "1. Open the page..."
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: e.g. Firefox on Android
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or additional details
+      description: Add screenshots or relevant browser console errors, if available.

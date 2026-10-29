@@ -22,6 +22,19 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000.
 
+## Contributing
+Bug reports, accessibility improvements, documentation updates, and focused code changes are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community expectations. Please use the repository issue templates when reporting a bug or suggesting an improvement. Security reports are handled privately as described in [SECURITY.md](SECURITY.md).
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Project files
+- `index.html` — page content and structure
+- `style.css` — responsive visual styles
+- `app.js` — repository loading, filtering, and activity summaries
+
+The site has no build step or package dependencies. Changes can be previewed with the local server above.
+
 ## Deploy with GitHub Pages
 1. Create a repository for the website (for example, `website`).
 2. Upload `index.html`, `style.css`, and `app.js` to the repository root.
