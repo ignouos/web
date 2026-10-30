@@ -1,8 +1,6 @@
 ## What changed
 
-
 ## Why
-
 
 ## Checks performed
 
